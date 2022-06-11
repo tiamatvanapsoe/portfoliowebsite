@@ -1,0 +1,115 @@
+:root{
+/* CSS HEX */
+--eggshell: #f4f1deff;
+--terra-cotta: #e07a5fff;
+--independence: #3d405bff;
+--green-sheen: #81b29aff;
+--deep-champagne: #f2cc8fff;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+main{
+    width: 80%;
+    margin: auto;
+}
+
+header {
+    background-color: var(--terra-cotta);
+} 
+
+h1{
+    color: var(--deep-champagne);
+    Font-Family: 'Raleway', Sans-Serif;
+    Font-Size: 35px;
+    font-weight: 300;
+    margin: 1rem 0 1rem 2rem;
+}   
+
+
+h2{
+    color: var(--independence);
+    Font-Family: 'Raleway', Sans-Serif;
+    Font-Size: 24px;
+    font-weight: 400;
+    margin: 1.5rem 0 1.5rem 0;
+}
+
+p{
+    Font-Family: 'Open Sans', Sans-Serif;
+    Font-Size: 15px;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+nav{
+    display: flex;
+    margin-right: 2rem;
+}
+a{
+    text-decoration: none;
+    color: var(--eggshell);
+}
+
+a.navbar{
+    Font-Family: 'Raleway', Sans-Serif;
+    Font-Size: 25px;
+    font-weight: 200;
+    margin: 1rem;
+    transition: all 500ms;
+}
+
+a:hover{
+    color: var(--independence)
+}
+
+/* sectie over mij */
+section{
+    margin: 2rem;
+}
+.tekst-en-foto-over-mij{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+#tekst-over-mij{
+    line-height: 2rem;
+    width: 60%;
+}
+
+.profielfoto{
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    max-width: 300px;
+    width: 40%;
+    height: auto;
+    flex-shrink: 2;
+}
+
+/* sectie projecten */
+#opsomming-projecten{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+.project{
+    max-width: 30%;
+    min-width: 200px;
+    height: auto;
+}
+.project img{
+    max-width: 100%;
+    max-height: auto;
+}

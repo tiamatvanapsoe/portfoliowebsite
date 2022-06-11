@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="nl">
 
 <head>
     <meta charset="UTF-8">
@@ -8,55 +8,60 @@
     <title>Portfolio van Tiamat van Apsoe</title>
     <link rel="stylesheet" href="./styles.css">
     <script src="./main.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans|Raleway:300,400" rel="stylesheet">
 </head>
 
 <body>
     <header>
-        <h1 class="logo-naam">Tiamat van Apsoe</h1>
-        <ul class="navbar">
-            <li class="navelement"> <a href="#over-mij">Over mij</a></li>
-            <li class="navelement"> <a href="#projecten">Projecten</a> Over mij</li>
-            <li class="navelement"> <a href="#vaardigheden">Vaardigheden</a></li>
-            <li class="navelement"> <a href="#contact">Contact</a></li>
-            <li class="navelement"> <a href="./fotopagina.html">Foto's</a></li>
-        </ul>
+        <h1>Tiamat van Apsoe</h1>
+        <nav>
+            <a class="navbar" href="#over-mij">Over mij</a>
+            <a class="navbar" href="#projecten">Projecten</a>
+            <a class="navbar" href="#vaardigheden">Vaardigheden</a>
+            <a class="navbar" href="./contact.html">Contact</a>
+        </nav>  
     </header>
+
     <main>
-        <section class="over-mij">
+        <section id="over-mij">
             <h2>Over mij</h2>
-            <p class="tekst-over-mij">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula
-                eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur
-                ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat
-                massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo,
-                rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer
-                tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo
-                ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis,
-                feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet.
-                Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui.</p>
-            <img src="./resources/fotos/portrait-tiamat-van-apsoe-li.jpg" alt="portraitfoto van Tiamat van Apsoe">
+            <div class="tekst-en-foto-over-mij">
+                <p id="tekst-over-mij">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula
+                    eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur
+                    ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat
+                    massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo,
+                    rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer
+                    tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo
+                    ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis,
+                    feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet.
+                    Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui.</p>
+                <img class='profielfoto' src="./resources/fotos/portrait-tiamat-van-apsoe-li-300x300.jpg" alt="portraitfoto van Tiamat van Apsoe">
+            </div>
         </section>
-        <section class="projecten">
+        <section id="projecten">
             <h2>Projecten</h2>
-            <div class="project">
-                <img src="./resources/projectprintscreens/lemanoir.jpg" alt="printscreen van website Lemanoir.info">
-                <h3>Le Manoir</h3>
-                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean
-                    massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
-            </div>
-            <div class="project">
-                <img src="./resources/projectprintscreens/lemanoir.jpg" alt="printscreen van website Lemanoir.info">
-                <h3>Le Manoir</h3>
-                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean
-                    massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
-            </div>
-            <div class="project">
-                <img src="./resources/projectprintscreens/lemanoir.jpg" alt="printscreen van website Lemanoir.info">
-                <h3>Le Manoir</h3>
-                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean
-                    massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+            <div id="opsomming-projecten">
+                <div class="project">
+                    <img src="./resources/projectprintscreens/lemanoir.jpg" alt="printscreen van website Lemanoir.info">
+                    <h3>Le Manoir</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean
+                        massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+                </div>
+                <div class="project">
+                    <img src="./resources/projectprintscreens/lemanoir.jpg" alt="printscreen van website Lemanoir.info">
+                    <h3>Le Manoir</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean
+                        massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+                </div>
+                <div class="project">
+                    <img src="./resources/projectprintscreens/lemanoir.jpg" alt="printscreen van website Lemanoir.info">
+                    <h3>Le Manoir</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean
+                        massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+                </div>
             </div>
         </section>
-        <section class="vaardigheden">
+        <section id="vaardigheden">
             <h2>Vaardigheden</h2>
             <div class="vaardigheid">
                 <img class="icoon-zwart" src="./resources/iconen/coding.png" alt="icoon html en css">
@@ -87,16 +92,7 @@
                 <p>Nederlands-Frans-Engels</p>
             </div>
         </section>
-        <section class="contact">
-            <h2>Contact</h2>
-            <div id="adres">
-                <p class="naam"></p>
-                <p>La Forge</p>
-                <p>46200 Souillac</p>
-                <p>Frankrijk</p>
-            </div>
-            <div id="email"></div>
-        </section>
+        
     </main>
     <footer>
         Icons made by <a href="http://www.freepik.com/" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a>
