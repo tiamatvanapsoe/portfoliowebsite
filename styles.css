@@ -37,6 +37,14 @@ h2{
     font-weight: 400;
     margin: 1.5rem 0 1.5rem 0;
 }
+h3{
+    color: var(--terra-cotta);
+    Font-Family: 'Raleway', Sans-Serif;
+    Font-Size: 20px;
+    font-weight: 400;
+    margin: 1.5rem 0 0.5rem 0;
+
+}
 
 p{
     Font-Family: 'Open Sans', Sans-Serif;
@@ -74,6 +82,7 @@ a:hover{
 /* sectie over mij */
 section{
     margin: 2rem;
+    scroll-margin-top: 6rem;
 }
 .tekst-en-foto-over-mij{
     display: flex;
@@ -112,4 +121,59 @@ section{
 .project img{
     max-width: 100%;
     max-height: auto;
+}
+
+/* sectie vaardigheden */
+#alle-iconen{
+    display: flex;
+    justify-content: space-between;
+}
+
+.twee-iconen{
+    width: 3.4rem;
+    height: 3.4rem;
+    position: relative;
+}
+
+.bottom{
+    width: 3rem;
+    height: auto;
+    position: absolute;
+    top: 0.2rem;
+    left: 0.2rem;
+}
+.top{
+    width: 3.4rem;
+    height: auto;
+    position: absolute;
+    left: 0;
+    opacity: 0;
+    transition: all 0.3s;
+}
+
+.top:hover{
+    opacity: 1;
+}
+
+#uitleg-bij-alle-iconen{
+    width: 60%;
+    margin: auto;   
+}
+
+/* .uitleg-bij-icoon{
+    display: none;
+} */
+
+.border{
+    border-width: 2px;
+    border-color: var(--terra-cotta);
+    border-style: solid;
+    border-radius: 5px; 
+}
+
+.tekst-bij-vaardigheid{
+    width: 90%;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
