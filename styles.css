@@ -178,9 +178,8 @@ section{
     margin-bottom: 10px;
 }
 #tekst-bij-icoon1{
-    display: block;
+    display: none;
 }
-
 #tekst-bij-icoon2{
     display: none;
 }
