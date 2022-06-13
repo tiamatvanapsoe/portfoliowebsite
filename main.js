@@ -1,38 +1,12 @@
-// const iconen = document.getElementById('icoon1')
-
-let groeien = function(){
-    icoon1.style.width='4rem';
+let icoon1 = document.getElementById('icoon1');
+let tekstBijIcoon1 = document.getElementById('tekst-bij-icoon1')
+let verschijn1 = function(){
+    tekstBijIcoon1.style.display = 'block'
 }
-let krimpen = function(){
-    icoon1.style.width='3rem'
+let verdwijn1 = function(){
+    tekstBijIcoon1.style.display = 'none'
 }
-
-icoon1.onmouseover = groeien;
-icoon1.onmouseout = krimpen;
-
+icoon1.onmouseover = verschijn1;
+icoon1.onmouseout = verdwijn1;
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// // accessing the elements with same classname
-// const elements = document.querySelectorAll('.my-box');
-
-// // adding the event listener by looping
-// elements.forEach(element => {
-//    element.addEventListner('click', (e)=>{
-//      console.log('someone hit me');
-//    });
-// });
