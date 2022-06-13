@@ -178,5 +178,24 @@ section{
     margin-bottom: 10px;
 }
 #tekst-bij-icoon1{
+    display: block;
+}
+
+#tekst-bij-icoon2{
+    display: none;
+}
+#tekst-bij-icoon3{
+    display: none;
+}
+#tekst-bij-icoon4{
+    display: none;
+}
+#tekst-bij-icoon5{
+    display: none;
+}
+#tekst-bij-icoon6{
+    display: none;
+}
+#tekst-bij-icoon7{
     display: none;
 }
