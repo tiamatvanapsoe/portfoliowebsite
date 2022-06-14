@@ -147,34 +147,38 @@ section{
     height: auto;
     position: absolute;
     left: 0;
-    opacity: 0;
-    transition: all 0.3s;
 }
 
-.top:hover{
-    opacity: 1;
-}
 #top-icoon1{
-    width: 3.4rem;
-    height: auto;
-    position: absolute;
-    left: 0;
     display: block;
-    /* opacity: 1; */
-    /* transition: all 0.3s; */
 }
-/* #top-icoon1:hover{
-    opacity: 0;
-} */
+
+#top-icoon2{
+    display: none;
+}
+#top-icoon3{
+    display: none;
+}
+#top-icoon4{
+    display: none;
+}
+#top-icoon5{
+    display: none;
+}
+#top-icoon6{
+    display: none;
+}
+#top-icoon7{
+    display: none;
+}
+
 
 #uitleg-bij-alle-iconen{
     width: 60%;
     margin: auto;   
 }
 
-/* .uitleg-bij-icoon{
-    display: none;
-} */
+
 
 .border{
     border-width: 2px;

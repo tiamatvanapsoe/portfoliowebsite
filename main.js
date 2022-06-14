@@ -4,21 +4,27 @@ let topIcoon1 = document.getElementById('top-icoon1');
 
 let icoon2 = document.getElementById('icoon2');
 let tekstBijIcoon2 = document.getElementById('tekst-bij-icoon2');
+let topIcoon2 = document.getElementById('top-icoon2');
 
 let icoon3 = document.getElementById('icoon3');
 let tekstBijIcoon3 = document.getElementById('tekst-bij-icoon3');
+let topIcoon3 = document.getElementById('top-icoon3');
 
 let icoon4 = document.getElementById('icoon4');
 let tekstBijIcoon4 = document.getElementById('tekst-bij-icoon4');
+let topIcoon4 = document.getElementById('top-icoon4');
 
 let icoon5 = document.getElementById('icoon5');
 let tekstBijIcoon5 = document.getElementById('tekst-bij-icoon5');
+let topIcoon5 = document.getElementById('top-icoon5');
 
 let icoon6 = document.getElementById('icoon6');
 let tekstBijIcoon6 = document.getElementById('tekst-bij-icoon6');
+let topIcoon6 = document.getElementById('top-icoon6');
 
 let icoon7 = document.getElementById('icoon7');
 let tekstBijIcoon7 = document.getElementById('tekst-bij-icoon7');
+let topIcoon7 = document.getElementById('top-icoon7');
 
 let hoverOverIcoon1 = function(){
     tekstBijIcoon1.style.display = 'block';
@@ -29,6 +35,12 @@ let hoverOverIcoon1 = function(){
     tekstBijIcoon6.style.display = 'none';
     tekstBijIcoon7.style.display = 'none';
     topIcoon1.style.display = 'block';
+    topIcoon2.style.display = 'none';
+    topIcoon3.style.display = 'none';
+    topIcoon4.style.display = 'none';
+    topIcoon5.style.display = 'none';
+    topIcoon6.style.display = 'none';
+    topIcoon7.style.display = 'none';
 }
 icoon1.onmouseover = hoverOverIcoon1;
 
@@ -44,7 +56,14 @@ let hoverOverIcoon2 = function(){
     tekstBijIcoon6.style.display = 'none';
     tekstBijIcoon7.style.display = 'none';
     topIcoon1.style.display = 'none';
+    topIcoon2.style.display = 'block';
+    topIcoon3.style.display = 'none';
+    topIcoon4.style.display = 'none';
+    topIcoon5.style.display = 'none';
+    topIcoon6.style.display = 'none';
+    topIcoon7.style.display = 'none';
 }
+
 icoon2.onmouseover = hoverOverIcoon2;
 
 let hoverOverIcoon3 = function(){
@@ -56,7 +75,14 @@ let hoverOverIcoon3 = function(){
     tekstBijIcoon6.style.display = 'none';
     tekstBijIcoon7.style.display = 'none';
     topIcoon1.style.display = 'none';
+    topIcoon2.style.display = 'none';
+    topIcoon3.style.display = 'block';
+    topIcoon4.style.display = 'none';
+    topIcoon5.style.display = 'none';
+    topIcoon6.style.display = 'none';
+    topIcoon7.style.display = 'none';
 }
+
 icoon3.onmouseover = hoverOverIcoon3;
 
 let hoverOverIcoon4 = function(){
@@ -68,7 +94,14 @@ let hoverOverIcoon4 = function(){
     tekstBijIcoon6.style.display = 'none';
     tekstBijIcoon7.style.display = 'none';
     topIcoon1.style.display = 'none';
+    topIcoon2.style.display = 'none';
+    topIcoon3.style.display = 'none';
+    topIcoon4.style.display = 'block';
+    topIcoon5.style.display = 'none';
+    topIcoon6.style.display = 'none';
+    topIcoon7.style.display = 'none';
 }
+
 icoon4.onmouseover = hoverOverIcoon4;
 
 let hoverOverIcoon5 = function(){
@@ -80,7 +113,14 @@ let hoverOverIcoon5 = function(){
     tekstBijIcoon6.style.display = 'none';
     tekstBijIcoon7.style.display = 'none';
     topIcoon1.style.display = 'none';
+    topIcoon2.style.display = 'none';
+    topIcoon3.style.display = 'none';
+    topIcoon4.style.display = 'none';
+    topIcoon5.style.display = 'block';
+    topIcoon6.style.display = 'none';
+    topIcoon7.style.display = 'none';
 }
+
 icoon5.onmouseover = hoverOverIcoon5;
 
 let hoverOverIcoon6 = function(){
@@ -92,7 +132,14 @@ let hoverOverIcoon6 = function(){
     tekstBijIcoon6.style.display = 'block';
     tekstBijIcoon7.style.display = 'none';
     topIcoon1.style.display = 'none';
+    topIcoon2.style.display = 'none';
+    topIcoon3.style.display = 'none';
+    topIcoon4.style.display = 'none';
+    topIcoon5.style.display = 'none';
+    topIcoon6.style.display = 'block';
+    topIcoon7.style.display = 'none';
 }
+
 icoon6.onmouseover = hoverOverIcoon6;
 
 let hoverOverIcoon7 = function(){
@@ -104,7 +151,14 @@ let hoverOverIcoon7 = function(){
     tekstBijIcoon6.style.display = 'none';
     tekstBijIcoon7.style.display = 'block';
     topIcoon1.style.display = 'none';
+    topIcoon2.style.display = 'none';
+    topIcoon3.style.display = 'none';
+    topIcoon4.style.display = 'none';
+    topIcoon5.style.display = 'none';
+    topIcoon6.style.display = 'none';
+    topIcoon7.style.display = 'block';
 }
+
 icoon7.onmouseover = hoverOverIcoon7;
 
 
