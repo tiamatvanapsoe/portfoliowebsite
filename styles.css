@@ -154,6 +154,18 @@ section{
 .top:hover{
     opacity: 1;
 }
+#top-icoon1{
+    width: 3.4rem;
+    height: auto;
+    position: absolute;
+    left: 0;
+    display: block;
+    /* opacity: 1; */
+    /* transition: all 0.3s; */
+}
+/* #top-icoon1:hover{
+    opacity: 0;
+} */
 
 #uitleg-bij-alle-iconen{
     width: 60%;
@@ -178,7 +190,7 @@ section{
     margin-bottom: 10px;
 }
 #tekst-bij-icoon1{
-    display: none;
+    display: block;
 }
 #tekst-bij-icoon2{
     display: none;
@@ -197,4 +209,13 @@ section{
 }
 #tekst-bij-icoon7{
     display: none;
+}
+/* footer */
+footer{
+    background-color: var(--terra-cotta);
+    height: 3rem;
+    text-align: center;
+    Font-Family: 'Open Sans', Sans-Serif;
+    font-size: 12px;
+    line-height: 3rem;
 }
