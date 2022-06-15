@@ -1,165 +1,41 @@
 let icoon1 = document.getElementById('icoon1');
-let tekstBijIcoon1 = document.getElementById('tekst-bij-icoon1');
-let topIcoon1 = document.getElementById('top-icoon1');
-
 let icoon2 = document.getElementById('icoon2');
-let tekstBijIcoon2 = document.getElementById('tekst-bij-icoon2');
-let topIcoon2 = document.getElementById('top-icoon2');
-
 let icoon3 = document.getElementById('icoon3');
-let tekstBijIcoon3 = document.getElementById('tekst-bij-icoon3');
-let topIcoon3 = document.getElementById('top-icoon3');
-
 let icoon4 = document.getElementById('icoon4');
-let tekstBijIcoon4 = document.getElementById('tekst-bij-icoon4');
-let topIcoon4 = document.getElementById('top-icoon4');
-
 let icoon5 = document.getElementById('icoon5');
-let tekstBijIcoon5 = document.getElementById('tekst-bij-icoon5');
-let topIcoon5 = document.getElementById('top-icoon5');
-
 let icoon6 = document.getElementById('icoon6');
-let tekstBijIcoon6 = document.getElementById('tekst-bij-icoon6');
-let topIcoon6 = document.getElementById('top-icoon6');
+let icoon7 = document.getElementById('icoon7'); 
+let iconen = document.getElementsByClassName('top');
+let teksten = document.getElementsByClassName('uitleg-bij-icoon');
 
-let icoon7 = document.getElementById('icoon7');
-let tekstBijIcoon7 = document.getElementById('tekst-bij-icoon7');
-let topIcoon7 = document.getElementById('top-icoon7');
+// let hoverOverIcoon = function(index){
+//     for (let i = 0; i<iconen.length; i++){
+//         if (i == index){
+//             iconen[i].style.display = 'block';
+//             teksten[i].style.display = 'block';
+//         } else {
+//             iconen[i].style.display = 'none';
+//             teksten[i].style.display = 'none';
+//         }
+//     }
+// }
 
-let hoverOverIcoon1 = function(){
-    tekstBijIcoon1.style.display = 'block';
-    tekstBijIcoon2.style.display = 'none';
-    tekstBijIcoon3.style.display = 'none';
-    tekstBijIcoon4.style.display = 'none';
-    tekstBijIcoon5.style.display = 'none';
-    tekstBijIcoon6.style.display = 'none';
-    tekstBijIcoon7.style.display = 'none';
-    topIcoon1.style.display = 'block';
-    topIcoon2.style.display = 'none';
-    topIcoon3.style.display = 'none';
-    topIcoon4.style.display = 'none';
-    topIcoon5.style.display = 'none';
-    topIcoon6.style.display = 'none';
-    topIcoon7.style.display = 'none';
-}
-icoon1.onmouseover = hoverOverIcoon1;
-
-
-
-
-let hoverOverIcoon2 = function(){
-    tekstBijIcoon1.style.display = 'none';
-    tekstBijIcoon2.style.display = 'block';
-    tekstBijIcoon3.style.display = 'none';
-    tekstBijIcoon4.style.display = 'none';
-    tekstBijIcoon5.style.display = 'none';
-    tekstBijIcoon6.style.display = 'none';
-    tekstBijIcoon7.style.display = 'none';
-    topIcoon1.style.display = 'none';
-    topIcoon2.style.display = 'block';
-    topIcoon3.style.display = 'none';
-    topIcoon4.style.display = 'none';
-    topIcoon5.style.display = 'none';
-    topIcoon6.style.display = 'none';
-    topIcoon7.style.display = 'none';
+function hoverOverIcoon (index){
+    iconen[index].style.display = 'block';
+    teksten[index].style.display = 'block';
+    // iconen[!index].style.display = 'none';
+    // teksten[!index].style.display = 'none';
 }
 
-icoon2.onmouseover = hoverOverIcoon2;
+icoon1.onmouseover = hoverOverIcoon(0);
+icoon2.onmouseover = hoverOverIcoon(1);
+icoon3.onmouseover = hoverOverIcoon(2);
+icoon4.onmouseover = hoverOverIcoon(3);
+icoon5.onmouseover = hoverOverIcoon(4);
+icoon6.onmouseover = hoverOverIcoon(5);
+icoon7.onmouseover = hoverOverIcoon(6);
 
-let hoverOverIcoon3 = function(){
-    tekstBijIcoon1.style.display = 'none';
-    tekstBijIcoon2.style.display = 'none';
-    tekstBijIcoon3.style.display = 'block';
-    tekstBijIcoon4.style.display = 'none';
-    tekstBijIcoon5.style.display = 'none';
-    tekstBijIcoon6.style.display = 'none';
-    tekstBijIcoon7.style.display = 'none';
-    topIcoon1.style.display = 'none';
-    topIcoon2.style.display = 'none';
-    topIcoon3.style.display = 'block';
-    topIcoon4.style.display = 'none';
-    topIcoon5.style.display = 'none';
-    topIcoon6.style.display = 'none';
-    topIcoon7.style.display = 'none';
-}
 
-icoon3.onmouseover = hoverOverIcoon3;
-
-let hoverOverIcoon4 = function(){
-    tekstBijIcoon1.style.display = 'none';
-    tekstBijIcoon2.style.display = 'none';
-    tekstBijIcoon3.style.display = 'none';
-    tekstBijIcoon4.style.display = 'block';
-    tekstBijIcoon5.style.display = 'none';
-    tekstBijIcoon6.style.display = 'none';
-    tekstBijIcoon7.style.display = 'none';
-    topIcoon1.style.display = 'none';
-    topIcoon2.style.display = 'none';
-    topIcoon3.style.display = 'none';
-    topIcoon4.style.display = 'block';
-    topIcoon5.style.display = 'none';
-    topIcoon6.style.display = 'none';
-    topIcoon7.style.display = 'none';
-}
-
-icoon4.onmouseover = hoverOverIcoon4;
-
-let hoverOverIcoon5 = function(){
-    tekstBijIcoon1.style.display = 'none';
-    tekstBijIcoon2.style.display = 'none';
-    tekstBijIcoon3.style.display = 'none';
-    tekstBijIcoon4.style.display = 'none';
-    tekstBijIcoon5.style.display = 'block';
-    tekstBijIcoon6.style.display = 'none';
-    tekstBijIcoon7.style.display = 'none';
-    topIcoon1.style.display = 'none';
-    topIcoon2.style.display = 'none';
-    topIcoon3.style.display = 'none';
-    topIcoon4.style.display = 'none';
-    topIcoon5.style.display = 'block';
-    topIcoon6.style.display = 'none';
-    topIcoon7.style.display = 'none';
-}
-
-icoon5.onmouseover = hoverOverIcoon5;
-
-let hoverOverIcoon6 = function(){
-    tekstBijIcoon1.style.display = 'none';
-    tekstBijIcoon2.style.display = 'none';
-    tekstBijIcoon3.style.display = 'none';
-    tekstBijIcoon4.style.display = 'none';
-    tekstBijIcoon5.style.display = 'none';
-    tekstBijIcoon6.style.display = 'block';
-    tekstBijIcoon7.style.display = 'none';
-    topIcoon1.style.display = 'none';
-    topIcoon2.style.display = 'none';
-    topIcoon3.style.display = 'none';
-    topIcoon4.style.display = 'none';
-    topIcoon5.style.display = 'none';
-    topIcoon6.style.display = 'block';
-    topIcoon7.style.display = 'none';
-}
-
-icoon6.onmouseover = hoverOverIcoon6;
-
-let hoverOverIcoon7 = function(){
-    tekstBijIcoon1.style.display = 'none';
-    tekstBijIcoon2.style.display = 'none';
-    tekstBijIcoon3.style.display = 'none';
-    tekstBijIcoon4.style.display = 'none';
-    tekstBijIcoon5.style.display = 'none';
-    tekstBijIcoon6.style.display = 'none';
-    tekstBijIcoon7.style.display = 'block';
-    topIcoon1.style.display = 'none';
-    topIcoon2.style.display = 'none';
-    topIcoon3.style.display = 'none';
-    topIcoon4.style.display = 'none';
-    topIcoon5.style.display = 'none';
-    topIcoon6.style.display = 'none';
-    topIcoon7.style.display = 'block';
-}
-
-icoon7.onmouseover = hoverOverIcoon7;
 
 
 

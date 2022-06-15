@@ -147,9 +147,11 @@ section{
     height: auto;
     position: absolute;
     left: 0;
+    display: none;
 }
 
-#top-icoon1{
+
+/* #top-icoon1{
     display: block;
 }
 
@@ -170,7 +172,7 @@ section{
 }
 #top-icoon7{
     display: none;
-}
+} */
 
 
 #uitleg-bij-alle-iconen{
@@ -193,7 +195,10 @@ section{
     margin-top: 10px;
     margin-bottom: 10px;
 }
-#tekst-bij-icoon1{
+.uitleg-bij-icoon{
+    display: none;
+}
+/* #tekst-bij-icoon1{
     display: block;
 }
 #tekst-bij-icoon2{
@@ -212,8 +217,8 @@ section{
     display: none;
 }
 #tekst-bij-icoon7{
-    display: none;
-}
+    display: none; */
+/* } */
 /* footer */
 footer{
     background-color: var(--terra-cotta);
