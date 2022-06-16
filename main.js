@@ -8,24 +8,19 @@ let icoon7 = document.getElementById('icoon7');
 let iconen = document.getElementsByClassName('top');
 let teksten = document.getElementsByClassName('uitleg-bij-icoon');
 
-// let hoverOverIcoon = function(index){
-//     for (let i = 0; i<iconen.length; i++){
-//         if (i == index){
-//             iconen[i].style.display = 'block';
-//             teksten[i].style.display = 'block';
-//         } else {
-//             iconen[i].style.display = 'none';
-//             teksten[i].style.display = 'none';
-//         }
-//     }
-// }
-
-function hoverOverIcoon (index){
-    iconen[index].style.display = 'block';
-    teksten[index].style.display = 'block';
-    // iconen[!index].style.display = 'none';
-    // teksten[!index].style.display = 'none';
+let hoverOverIcoon = function(index){
+    for (let i = 0; i<iconen.length; i++){
+        if (i == index){
+            iconen[i].style.display = 'block';
+            teksten[i].style.display = 'block';
+        } else {
+            iconen[i].style.display = 'none';
+            teksten[i].style.display = 'none';
+        }
+    }
 }
+
+
 
 icoon1.onmouseover = hoverOverIcoon(0);
 icoon2.onmouseover = hoverOverIcoon(1);
