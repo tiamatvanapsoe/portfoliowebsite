@@ -160,10 +160,6 @@ section{
     margin: auto;   
 }
 
-/* .uitleg-bij-icoon{
-    display: none;
-} */
-
 .border{
     border-width: 2px;
     border-color: var(--terra-cotta);
@@ -176,7 +172,4 @@ section{
     margin: auto;
     margin-top: 10px;
     margin-bottom: 10px;
-}
-#tekst-bij-icoon1{
-    display: none;
 }
