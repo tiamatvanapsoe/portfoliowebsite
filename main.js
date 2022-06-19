@@ -22,13 +22,13 @@ let hoverOverIcoon = function(index){
 
 
 
-icoon1.onmouseover = hoverOverIcoon(0);
-icoon2.onmouseover = hoverOverIcoon(1);
-icoon3.onmouseover = hoverOverIcoon(2);
-icoon4.onmouseover = hoverOverIcoon(3);
-icoon5.onmouseover = hoverOverIcoon(4);
-icoon6.onmouseover = hoverOverIcoon(5);
-icoon7.onmouseover = hoverOverIcoon(6);
+icoon1.onmouseover = function() {hoverOverIcoon(0)};
+icoon2.onmouseover = function() {hoverOverIcoon(1)};
+icoon3.onmouseover = function() {hoverOverIcoon(2)};
+icoon4.onmouseover = function() {hoverOverIcoon(3)};
+icoon5.onmouseover = function() {hoverOverIcoon(4)};
+icoon6.onmouseover = function() {hoverOverIcoon(5)};
+icoon7.onmouseover = function() {hoverOverIcoon(6)};
 
 
 

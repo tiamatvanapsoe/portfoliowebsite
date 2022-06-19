@@ -34,4 +34,46 @@
             Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui.</p>
             <img class='profielfoto' src="./resources/fotos/portrait-tiamat-van-apsoe-li-300x300.jpg" alt="portraitfoto van Tiamat van Apsoe">
     </div>
+    <form action="./form-resultaten.html" method="GET">
+        <label for="naam">Naam</label>
+        <input type="text" name="naam" id="naam" placeholder="geef je naam" required>
+        <br>
+        <label for="paswoord">Paswoord</label>
+        <input type="password" name="paswoord" id="paswoord" required>
+        <br>
+        <label for="email">E-mail</label>
+        <input type="email" name="email" id="email">
+        <br>
+        <label for="leeftijd">Leeftijd</label>
+        <input type="number" name="leeftijd" id="leeftijd" min="10" max="100">
+        <br>
+        <p>Uw favoriete eten</p>
+        <label for="banaan">Banaan</label>
+        <input type="checkbox" name="banaan" id="banaan">
+        <br>
+        <label for="appel">Appel</label>
+        <input type="checkbox" name="appel" id="appel">
+        <br>
+        <p>Gender</p>
+        <label for="man">Man</label>
+        <input type="radio" name="gender" id="man" value="man">
+        <br>
+        <label for="vrouw">Vrouw</label>
+        <input type="radio" name="gender" id="vrouw" value="vrouw">
+        <br>
+        <label for="kleur van ogen">Kleur van ogen</label>
+        <select>
+            <option value="groen">groen</option>
+            <option value="blauw">blauw</option>
+            <option value="bruin">bruin</option>
+        </select>
+        <br>
+        <label for="bio">Bio</label>
+        <br>
+        <textarea name="bio" id="bio" cols="30" rows="5"></textarea>
+        <br>
+        <button type="reset">Reset</button>
+        <button type="submit">Verstuur</button>
+ 
+    </form>
 </main>
